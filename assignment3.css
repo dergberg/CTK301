@@ -1,0 +1,34 @@
+/* assignment3 */
+.specialp {
+  color: #0000FF;
+}
+#specialid {
+  color: #48E51D;
+}
+p{
+  background-color: #EFF5F5;
+}
+h1{
+  color: #B702F3;
+  background-color: #FAF177;
+}
+a{
+  color:#FF0000;
+}
+a:link{
+color:#FF0000;
+}
+a:hover{
+color:#FFFF00;
+}
+a:visited{
+color: #00FF00 ;
+}
+#divexample {
+  background-color: #A599FB;
+  color: #ED7206;
+}
+.spanstyle {
+  background-color: #16D826;
+  color: #D51009;
+}
