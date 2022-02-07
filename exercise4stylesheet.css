@@ -1,0 +1,38 @@
+header{
+  background-color: #CCCCFF;
+}
+h1 {
+  color: #FFFFFF;
+}
+a: link {
+  color: #05E111;
+}
+h2 {
+  color: #0E62F9;
+}
+span {
+  color: #F88724;
+  }
+h3 {
+  background-color:#F4FF08;
+}
+#specialid{
+  color: #FF2608;
+}
+h4 {
+  background-color:#297713;
+  color: #F9F91D;
+}
+.specialp{
+  background-color: #8EF92F;
+}
+h5 {
+  color: #FF0D05;
+}
+footer{
+  background-color: #FCFF05
+}
+a:hover {
+ text-decoration: underline;
+ color: #FF0505
+}
