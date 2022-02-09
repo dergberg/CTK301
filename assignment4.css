@@ -1,0 +1,95 @@
+/* assignment4 */
+
+}
+#specialid {
+  color: #48E51D;
+}
+p{
+  background-color: #EFF5F5;
+}
+h1{
+  color: #FEA241;
+  background-color: #FAF177;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+}
+  h2{
+    color: #FEA241;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  h3{
+    color: #FEA241;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  h4{
+    color: #FEA241;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+
+  }
+
+a{
+  color:#FF0000;
+}
+a:link{
+color:#FF0000;
+}
+a:hover{
+color:#FFFF00;
+}
+a:visited{
+color: #00FF00 ;
+}
+#divexample {
+  background-color: #A599FB;
+  color: #ED7206;
+
+}
+.spanstyle {
+  background-color: #16D826;
+  color: #D51009;
+}
+
+.customtext {
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+}
+
+.fontcombined {
+font: bold 20px Arial, Helvetica, sans-serif;
+}
+
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.imgbox {
+border: 30px solid #080808;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: #FFFFFF;
+}
+
+body {
+background-color: #89EBF0;
+background-image: url(Covetalbumart.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+}
