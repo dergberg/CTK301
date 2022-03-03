@@ -1,0 +1,160 @@
+/* CSS */
+
+
+#wrapper {
+  margin: 1em auto;
+   padding: 0em;
+  width: 960px;
+  border: 5px solid blue;
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+body{
+background-color: grey;
+}
+.justify{
+  text-align: justify;
+  font-weight: bold;
+}
+a{
+  color: red;
+}
+
+.format{
+  color: lightblue;
+  text-decoration: none;
+  padding-left: 24px;
+}
+
+main {
+  padding-top: 0px;
+  grid-column: span 12;
+  border: 1px solid blue;
+  padding-left: 25px;
+  padding-right: 25px;
+  float: left;
+}
+main img {
+  float: right;
+  margin-right: 24px;
+  margin-top: 10px;
+  margin-left: -2px;
+  margin-bottom: 40px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
+  border-left: 3px solid blue;
+  border-right: 3px solid blue;
+}
+h1 {
+font-family: helvetica;
+font-weight: normal;
+color: white;
+  padding-bottom: 0px;
+  padding-top: 4px;
+  text-align: left;
+}
+header {
+  grid-column:span 12;
+  border: 0px solid blue;
+  color: blue;
+  background-image: linear-gradient(to right top, #051937, #11325d, #1a4d86, #1f6ab1, #1c89de);
+
+}
+h2 {
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 3px solid blue;
+  color: blue;
+  padding-left: 10px;
+}
+
+
+.rickandhisfancybuttons {
+  grid-column: span 12;
+  position: relative;
+  bottom: -24px;
+  left: -50px;
+}
+nav ul{
+  list-style-type: none;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+nav li {
+  border: 1px solid black;
+  padding: 2px;
+  margin: 10px;
+  width: 200px;
+  height: 35px;
+  background-image: linear-gradient(to right top, #051937, #11325d, #1a4d86, #1f6ab1, #1c89de);
+  display: inline-block;
+  grid-column: span 12px;
+
+
+}
+nav li:hover {
+  background-color: red;
+}
+
+nav li a {
+  color: lightblue;
+  display: block;
+  padding: 0px 0 0 0px;
+  text-decoration: none;
+  text-align: center;
+
+}
+.cheecky {
+  display: inline-block;
+  width: 180px;
+  height: 35;
+}
+
+
+
+a:hover {
+  color: green;
+}
+
+nav li a:hover {
+  color: green;
+  text-decoration: none;
+  background-color: maroon;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.float {
+  float: right;
+}
+
+div {
+  padding-left: 25px;
+  padding-top: 0em;
+
+}
+
+
+footer {
+  grid-column: span 12;
+  repeat: none;
+  border-top: 5px solid blue;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-color: red;
+  color: white;
+}
+.isubutton {
+  display: block;
+  background-image: url(wordmark_isu.png);
+}
