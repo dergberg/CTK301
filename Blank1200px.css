@@ -1,0 +1,62 @@
+body {
+  background-color:grey;
+}
+
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-image: url(dergberg-full.png);
+  display: grid;
+  grid-template-columns: : repeat(12, 1fr);
+  grid-column-gap: 10px;
+
+}
+.image {
+  width: 100%;
+  max-height:150px;
+}
+
+.header{
+  padding-top: 0px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  grid-column: span 12;
+}
+.float1 {
+float: left;
+display: grid;
+grid-area: left;
+grid-column: span 4;
+padding-right: 24px;
+}
+.float2 {
+float: right;
+  display: grid;
+  grid-area: left;
+  grid-column: span 4;
+}
+.bio {
+  display: grid;
+  grid-column: span 8;
+  font-size: 45px;
+  color: red;
+}
+.Sitenav {
+float: left;
+}
+.platformwhoring {
+  float: right;
+}
+img {
+  max-width: 100%;
+  max-height: 350px;
+}
+li {
+  list-style: none;
+}
+
+}
