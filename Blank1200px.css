@@ -5,6 +5,7 @@
   border: 1px solid black;
   padding: 5px;
   background-image: url(dergberg-full.png);
+  background-repeat: round;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 250px);
@@ -17,6 +18,16 @@ body {
 header {
   grid-column: span 12;
   grid-row: 1;
+}
+#mygallery {
+display: grid;
+grid-row: auto;
+  text-align: center;
+  margin-top: 100px;
+  max-width: 600px;
+}
+#mygallery img{
+  max-width: 50%;
 }
 
 
