@@ -5,7 +5,8 @@
   border: 1px solid black;
   padding: 5px;
   background-image: url(dergberg-full.png);
-  background-repeat: round;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 250px);
@@ -16,8 +17,9 @@ body {
 }
 
 header {
-  grid-column: span 12;
+  grid-column: 4;
   grid-row: 1;
+
 }
 #mygallery {
 display: grid;
@@ -27,13 +29,54 @@ grid-row: auto;
   max-width: 600px;
 }
 #mygallery img{
-  max-width: 50%;
+  display: grid;
+  max-width: 100%;
+  grid-column: 1fr;
 }
 
+#mygallery2{
+  display: grid;
+  grid-row: auto;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 600px;
+}
+#mygallery2 img{
+  display: grid;
+  max-width: 100%;
+  grid-column: 1fr;
+}
+
+#mygallery3{
+  display: grid;
+  grid-row: auto;
+  text-align: center;
+  margin-top:0px;
+  margin-left: 50px;
+  max-width: 250px;
+}
+#mygallery3 img{
+  display: grid;
+  grid-column: 1fr;
+  max-width: 100%;
+}
+.music{
+  display: grid;
+  grid-column: span 12;
+  grid-row-gap: 0px;
+  grid-template-columns: 1fr;
+  }
 
 .image {
   width: 100%;
   max-height:150px;
+  display: grid;
+  grid-column: 1;
+  padding-top: 150px;
+}
+.logopad {
+  margin-left: 370px;
+  max-width: 700px;
 }
 .header{
   padding-top: 0px;
@@ -42,32 +85,59 @@ grid-row: auto;
   font-family: 'Fredoka One', cursive;
   text-align: center;
 }
+ .va {
+   grid-column: span 9;
+   grid-row: 2;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+ }
 main {
-  grid-column: span 9;
-  grid-row: 2;
+display: grid;
+grid-column: span 12;
+grid-row-gap: 0px;
 }
+
+.accolades{
+grid-column: 6;
+grid-column: span 4;
+grid-row: 2;
+list-style-type: none;
+color: red;
+font-size: 25px;
+}
+.accolades li{
+  padding-bottom: 60px;
+}
+.accolades li a{
+color: red;
+text-decoration: none;
+}
+.accolades li a:hover{
+color:green;
+}
+
 .spotifyplayer {
   grid-column: 1;
-  grid-row: 4;
+  grid-row:2;
   width: 100%;
-  margin-left: -233;
-  padding-top: 300px;
+  padding-top: 0px;
+  padding-left: 44px;
+  margin-right: 8px;
 }
 .youtubeplayer{
-  grid-column: 12;
-  grid-row: 2;
+  grid-column: 1;
+  grid-row: 3;
   width: 100%;
-  margin-left: 363;
-  padding-top: 0px;
+  padding-left: 44px;
 }
 .bio {
   display: grid;
-  grid-column: 6;
-  grid-row: 3;
-  font-size: 45px;
-  text-align: center;
-  padding-top: 50px;
-  padding-left: 70px;
+  grid-column: 4;
+  grid-row: 2;
+  font-size: 25px;
+  padding-top: 0px;
+  padding-right: 60px;
   color: red;
 }
 .Sitenav {
@@ -75,13 +145,19 @@ grid-column: 1;
 grid-row: 2;
 }
 .platformwhoring {
-  grid-column: 12;
+  grid-column: 11;
   grid-row: 2;
+  list-style-type: none;
+}
+.amazon {
+  image: 36px;
+  color: orange;
+  margin bottom: 0px;
 }
 .platformwhoring li {
   margin-bottom: 8px;
 }
-.platformwhoring a {
+.platformwhoring li a {
   font-size: 36px;
   color: orange;
   box-shadow: 2px 5px 5px purple;
