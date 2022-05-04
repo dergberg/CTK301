@@ -1,0 +1,231 @@
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 5px;
+  background-image: url(dergberg-full.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 250px);
+  grid-column-gap: 10px;
+}
+body {
+  background-color:grey;
+}
+
+header {
+  grid-column: 4;
+  grid-row: 1;
+  margin-left: 65px;
+  margin-top: 25px;
+
+}
+#mygallery {
+display: grid;
+grid-row: auto;
+  text-align: center;
+  margin-top: 100px;
+  max-width: 600px;
+}
+#mygallery img{
+  display: grid;
+  max-width: 100%;
+  grid-column: 1fr;
+}
+
+#mygallery2{
+  display: grid;
+  grid-row: auto;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 600px;
+}
+#mygallery2 img{
+  display: grid;
+  max-width: 100%;
+  grid-column: 1fr;
+}
+
+#mygallery3{
+  display: grid;
+  grid-column: 1;
+  text-align: center;
+  margin-top:31px;
+  margin-left: 0px;
+  max-width: 250px;
+}
+#mygallery3 img{
+  display: grid;
+  grid-column: 1fr;
+  max-width: 100%;
+}
+#form {
+  display: grid;
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.playlist{
+  grid-column: 6;
+  margin-top: 31px;
+  margin-right: 50px;
+}
+.singles{
+  grid-row: 4;
+  margin-left: 0px;
+}
+.music{
+  display: grid;
+  grid-column: span 9;
+  grid-row-gap: 0px;
+  }
+
+.image {
+  width: 100%;
+  max-height:150px;
+  display: grid;
+  grid-column: 1;
+  padding-top: 150px;
+}
+.logopad {
+  margin-left: 370px;
+  max-width: 700px;
+}
+.header{
+  padding-top: 0px;
+  color: red;
+  font-size: 72px;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.header:hover{
+  color: #00ff00;
+}
+ .va {
+   grid-column: span 9;
+   grid-row: 2;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: -81px;
+   padding-left: 26px;
+ }
+main {
+display: grid;
+grid-column: span 9;
+grid-row-gap: 0px;
+}
+
+.accolades{
+grid-column: 6;
+grid-column: span 4;
+grid-row: 2;
+list-style-type: none;
+color: red;
+font-size: 25px;
+}
+.accolades li{
+  padding-bottom: 40px;
+  background-color: black;
+}
+.accolades li a{
+color: white;
+text-decoration: none;
+}
+.accolades li a:hover{
+color:#00ff00;
+}
+
+.spotifyplayer {
+  grid-column: 1;
+  grid-row:2;
+  width: 100%;
+  padding-top: 0px;
+  padding-left: 44px;
+  margin-right: 8px;
+}
+.youtubeplayer{
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+  padding-left: 44px;
+}
+.bio {
+  display: grid;
+  grid-column: 4;
+  grid-row: 2;
+  font-size: 25px;
+  color: white;
+  border: 15px;
+}
+
+.bio p{
+  background-color: black;
+}
+.Sitenav {
+grid-column: 1;
+grid-row: 2;
+}
+.platformwhoring {
+  grid-column: 11;
+  grid-row: 2;
+}
+.platformwhoring ul{
+  list-style-type: none;
+}
+.amazon {
+  image: 36px;
+  color: orange;
+  margin bottom: 0px;
+  list-style-type: none;
+}
+.platformwhoring li {
+  margin-bottom: 8px;
+}
+.platformwhoring li a {
+  font-size: 36px;
+  color: orange;
+  box-shadow: 2px 5px 5px purple;
+}
+
+}
+img {
+  max-width: 100%;
+  max-height: 350px;
+}
+
+nav ul{
+  list-style-type: none;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 4px;
+}
+nav li {
+  display: inline-block;
+  grid-column: span 6;
+  border: 5px solid purple;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  width: 200px;
+  height: 35px;
+  box-shadow: 2px 10px 10px purple;
+}
+nav li a {
+  display: block;
+  padding: 8px 8 8 8px;
+  background-color: red;
+  color; white;
+  text-align: center;
+  transition: background-color .50s, width 2.0s, color .50s;
+}
+nav a:hover {
+  background-color: #00ff00;
+  width: 165px;
+  color: black;
+}
